@@ -145,7 +145,7 @@ public class BluetoothAgentActivity extends AppCompatActivity implements Message
 
                         }
                         break;
-
+                    //yes one 123
                     case ONCLICK_SCAN_ACTION:
                         agentBtAdapter.startDiscovery();
                         break;
