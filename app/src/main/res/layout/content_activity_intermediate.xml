@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_activity_intermediate"
+    tools:context="com.example.prn763.bluetoothproject.ReceiverActivity"
+    android:background="@drawable/androidbg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bluetooth Status : Off"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:id="@+id/rcvrBtStatus"
+            android:gravity="center"
+            android:background="#163350"
+            android:layout_gravity="top"
+            android:textColor="#5FE5F6" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/rcvrBtDeviceList"
+            android:layout_below="@+id/rcvrBtStatus"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/tryAgainImageView"
+            android:background="@drawable/tryagain"
+            android:layout_marginTop="200dp"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

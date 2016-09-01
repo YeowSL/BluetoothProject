@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Receiver</string>
+    <string name="action_settings">Settings</string>
+    <string name="requestConnection">Request Connection</string>
+    <string name="sendBtData">Send</string>
+    <string name="bt_pair">BT Pairing</string>
+    <string name="dc_toggle">Dc_toggle</string>
+    <string name="configure">Configure</string>
+    <string name="title_activity_activity_intro">BT Fast-Conn</string>
+    <string name="title_activity_activity_intermediate">Intermediate</string>
+</resources>
